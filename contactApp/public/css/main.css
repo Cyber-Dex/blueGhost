@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    background-color: #4a5568;
+    font-family: CustomTweetHeading;
+
+}
+.dash-header {
+    height: 150px;
+    width: 100%;
+    background-color: #1a202c;
+}
+.dash-header > h2 {
+    font-family: CustomHeading;
+    font-size: 5em;
+}
+.dash-content > h2,
+.dash-footer > h2
+{
+    text-align: center;
+    font-family: CustomContent;
+    padding: 0.5%;
+}
+
+.dash-content {
+    height: 500px;
+    width: 100%;
+}
+.dash-footer {
+    height: 250px;
+    width: 100%;
+    background-color: #1a202c;
+
+}
+
+@font-face {
+    font-family: CustomHeading;
+    src: url("../fonts/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: CustomContent;
+    src: url("../fonts/Audiowide-Regular.ttf");
+}
+
+@font-face {
+    font-family: CustomTweetHeading;
+    src: url("../fonts/AmaticSC-Regular.ttf");
+}
+
+.std-inp {
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 20px;
+    padding: 0.5%;
+    background-color: #4a5568;
+    margin: 1%;
+    transition: 1s;
+}
+.std-inp:hover,
+.std-inp:focus {
+    transition: 1s;
+    transform: skewX(-15deg) scale(1.1);
+    border-radius: 2px;
+}
+
+.std-txt {
+    height: 150px;
+    width: 250px;
+    resize: none;
+    float: right;
+    position: relative;
+    margin-top: -3.5%;
+    margin-right: 52%;
+}
+.std-sub {
+    width: 250px;
+    float: right;
+    position: relative;
+    margin-right: 35%;
+    margin-top: -5%;
+}
+::placeholder {
+    color: white;
+}
+.contacts-section {
+    height: 450px;
+    text-align: center;
+    overflow-y: scroll;
+}
+.contact-link {
+    font-size: 1.1em;
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.4);
+    margin: 2%;
+    padding: 1%;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+.contact-mod-link {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1%;
+
+}
+.std-button {
+    padding: 0.7em;
+    background-color: #2d3748;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 20px;
+}
+.contact-link-content {
+    height: 75px;
+    overflow-y: scroll;
+}
+.orig {
+    color: #2d3748;
+}
+.edit-inp {
+    background-color: #1a202c;
+}

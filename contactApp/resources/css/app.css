@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.desk-header {
+    background-color: #1a202c;
+    height: 150px;
+    width: 100%;
+}
+
+.desk-content {
+    background-color: #2d3748;
+    height: 500px;
+    width: 100%;
+}
+.desk-footer {
+    background-color: #4a5568;
+    height: 250px;
+    width: 100%;
+}
