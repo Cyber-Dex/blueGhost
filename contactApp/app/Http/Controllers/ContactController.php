@@ -75,7 +75,7 @@ class ContactController extends Controller
         $contact->fname = $request['fname'];
         $contact->lname = $request['lname'];
         $contact->phone = $request['phone'];
-        $contact->mail = $request['mail'];
+        $contact->mail = $request['email'];
         $contact->note = $request['note'];
         $contact->save();
         $contacts = Contact::all();
